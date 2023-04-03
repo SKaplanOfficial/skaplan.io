@@ -1,0 +1,38 @@
+.btn {
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    padding: 0 20px 0 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    transition: padding .2s, box-shadow 2s;
+    backdrop-filter: blur(5px);
+
+    &:hover {
+        padding: 0px 30px 0px 30px;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.25);
+    }
+    
+    .btn-icon {
+        font-size: 30px;
+        width: 30px;
+        padding-top: 20px;
+    }
+    
+    .btn-icon-no-title {
+        padding-bottom: 20px;
+    }
+    
+    .btn-title {
+        font-weight: 700;
+    }
+    
+    .btn-description {
+        font-size: 12px;
+    }
+}
+
+.btn-link {
+    text-decoration: none;
+}

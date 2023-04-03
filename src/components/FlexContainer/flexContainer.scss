@@ -1,0 +1,18 @@
+.card-container {
+    margin: 0 auto;
+}
+
+.card-container-floating {
+    @extend .card-container;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+}
+
+.card-container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    flex-wrap: wrap;
+}
