@@ -12,13 +12,8 @@ import Spacer from './components/Spacer/Spacer'
 import TextSection from './components/TextSection/TextSection'
 import Footer from './components/Footer/Footer'
 
-import P5Wrapper from './components/P5Wrapper'
-import sketch from './components/P5Wrapper/sketch'
-
 const App = (): JSX.Element => {
   library.add(fas, fab)
-
-  const P5: any = P5Wrapper()
 
   return (
     <div className="App">
@@ -35,11 +30,9 @@ const App = (): JSX.Element => {
         </FlexContainer>
       </FlexContainer> */}
 
-      <P5 sketch={sketch} ></P5>
-
       <Spacer height='20vh' />
 
-      <header className="page-header">SK</header>
+      <header className="page-header"><a href="/">SK</a></header>
 
       <FlexContainer>
         <Button icon={faGithub} link="https://github.com/SKaplanOfficial" tooltip="GitHub Profile" customStyle={{
@@ -115,8 +108,8 @@ const App = (): JSX.Element => {
             }} />
           </Card>
 
-          <Card title="UMaine Beta" body="A modern website for the Beta Eta chapter of Beta Theta Pi." backgroundColor="#88004499" percentWidth={25} >
-            <Button title="Learn More >" tooltip="Aria GitHub Repository" link="https://github.com/SKaplanOfficial/Aria" customStyle={{
+          <Card title="File AI" body="An interface between selected files and GPT 3.5 with custom commands and contextual placeholders." backgroundColor="#88004499" percentWidth={25} >
+            <Button title="Learn More >" tooltip="File AI GitHub Repository" link="https://github.com/SKaplanOfficial/Raycast-File-AI" customStyle={{
               backgroundColor: 'rgba(0, 0, 0, 0.1)',
               color: 'white',
               fontSize: '15px',

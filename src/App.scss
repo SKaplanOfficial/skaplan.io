@@ -19,11 +19,15 @@ body {
 
 .page-header {
   text-align: center;
-  color: #ffffffCC;
-  font-weight: 900;
-  font-size: 20vmin;
   padding: 5vmin 0;
   user-select: none;
+
+  a {
+    color: #ffffffCC;
+    font-weight: 900;
+    font-size: 20vmin;
+    text-decoration: none;
+  }
 }
 
 .headline {
